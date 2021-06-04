@@ -1,14 +1,21 @@
-/* Write your CSS here! */
+
+
 body {
     margin: 8px;
     display: block;
     padding: 25px;
     margin: 25pk;
+    text-align: center;
+    background-color: lightblue;
 
 }
 
+p{
+    font-size: 20px;
+}
+
 #mainHeading {
-    color: red; 
+    color: rgb(228, 93, 93); 
 }
 
 #testP {
@@ -17,4 +24,18 @@ body {
 
 .funParagraph {
     color: green;
+}
+
+#notCenter {
+    text-align: left;
+    font-size: 20px;
+}
+
+h1 {
+    text-shadow: 4px 4px black;
+}
+
+h2 {
+    text-shadow: 2px 2px black;
+    font-size: 30 px;
 }
